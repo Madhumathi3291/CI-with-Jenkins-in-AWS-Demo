@@ -50,4 +50,10 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://34.83.211.202:8081/repository/Sample-Snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
